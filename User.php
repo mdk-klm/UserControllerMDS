@@ -20,13 +20,13 @@ class User
 
 
   public function __toString()
-{
+  {
     return 'je suis ' .$this->name .' ' .$this->firstname;
-}
+  }
 
 
 public function __serialize()
-    {
+   {
   
 
   return [
@@ -37,7 +37,7 @@ public function __serialize()
       'hair_color' => $this->hair_color
   ];
 
-        }
+    }
 
 function getName() {
     return $this->name;
@@ -65,7 +65,7 @@ function setBirthday($birthday) {
 
 
 function getHair_color()
-{
+    {
   return $this->hair_color;
     }
 
