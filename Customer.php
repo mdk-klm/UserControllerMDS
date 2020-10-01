@@ -1,6 +1,7 @@
 <?php
 
-class Customer extends User{
+class Customer extends User
+{
     
  protected $adress;
  protected $has_paid = true;
